@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://bitbucket.org/packt-internal/cordova-plugin-recaptcha.git"
+    "url": "git@github.com:servicetitan/cordova-plugin-recaptcha.git"
   },
   "keywords": [
     "ecosystem:cordova",
@@ -17,9 +17,9 @@
     "recaptcha"
   ],
   "bugs": {
-    "url": "https://bitbucket.org/packt-internal/cordova-plugin-recaptcha/issues"
+    "url": "https://github.com/servicetitan/cordova-plugin-recaptcha/issues"
   },
-  "homepage": "https://bitbucket.org/packt-internal/cordova-plugin-recaptcha",
+  "homepage": "https://github.com/servicetitan/cordova-plugin-recaptcha",
   "author": "James Macmillan <jamesm@packtpub.com>",
   "license": "MIT"
 }
