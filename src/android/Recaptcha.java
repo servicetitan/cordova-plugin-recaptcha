@@ -36,7 +36,7 @@ public class Recaptcha extends CordovaPlugin {
         return false;
     }
 
-    private void verify(String apiKey, CallbackContext callbackContext) {
+    private void verify(String apiKey, final CallbackContext callbackContext) {
         if (apiKey.length() > 0) {
             SafetyNet.getClient(cordova.getActivity())
                 .verifyWithRecaptcha(apiKey)
