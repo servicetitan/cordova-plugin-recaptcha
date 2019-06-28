@@ -17,7 +17,7 @@
         <clobbers target="plugins.recaptcha" />
     </js-module>
     <platform name="android">
-        <framework src="com.google.android.gms:play-services-safetynet:+" />
+        <framework src="com.google.android.gms:play-services-safetynet:16.0.0" />
         
         <config-file target="config.xml" parent="/*">
             <feature name="Recaptcha">
